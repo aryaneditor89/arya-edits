@@ -3,68 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arya Edits   Professional Editing Services</title>
+    <title>Arya Edits | Professional Photo & Video Editing</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-    <h1>ARYA EDITS</h1>
+<nav class="navbar">
 
-    <p>Professional Photo & Video Editing Services</p>
+<div class="logo">
+ARYA EDITS
+</div>
 
-    <a href="#services">Order Now</a>
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Services</a></li>
+
+<li><a href="#">Portfolio</a></li>
+
+<li><a href="#">Pricing</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<h1>
+Professional Photo & Video Editing
+</h1>
+
+<p>
+Affordable editing for creators, gamers, influencers and businesses.
+</p>
+
+<a href="#" class="btn">
+Order Now
+</a>
+<div class="payment">
+    <h2>Scan & Pay</h2>
+
+    <img src="images/Screenshot 2026-06-29 220313.png" alt="PhonePe QR Code" class="qr">
+
+    <p>UPI ID: <strong>9801116031@ybl</strong></p>
+</div>
 </header>
 
-<section id="services">
+<section class="services">
 
-<h2>My Services</h2>
+    <h2>My Services</h2>
 
-<div>
+    <div class="service-box">
+        <div class="card">
+            <h3>🎬 Video Editing</h3>
+            <p>Gaming, YouTube, Shorts, Reels and cinematic editing.</p>
+        </div>
 
-<h3>📷 Photo Editing</h3>
+        <div class="card">
+            <h3>📸 Photo Editing</h3>
+            <p>Thumbnail design, color correction and retouching.</p>
+        </div>
 
-<p>₹50</p>
+        <div class="card">
+            <h3>⚡ Fast Delivery</h3>
+            <p>High-quality editing with quick delivery.</p>
+        </div>
 
+    </div>
+
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+
+    <h2>My Portfolio</h2>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-card">
+            <img src="images/edit1.png" alt="Edit 1">
+        </div>
+
+        <div class="portfolio-card">
+            <img src="images/edit2.png" alt="Edit 2">
+        </div>
+
+        <div class="portfolio-card">
+            <img src="images/edit3.png" alt="Edit 3">
+        </div>
+
+    </div>
+
+</section>
+<section class="services-select">
+
+<h2>Pick What You Need</h2>
+
+<div class="select-container">
+
+<div class="select-card">
+<h3>📸 Photo Editing</h3>
+<p>Color grading, retouching, background removal, thumbnails.</p>
+<h1>₹50+</h1>
 </div>
 
-<div>
-
-<h3>🎥 Video Editing</h3>
-
-<p>₹100 - ₹200</p>
-
+<div class="select-card">
+<h3>🎬 Video Editing</h3>
+<p>Gaming, Shorts, Reels, Cinematic Videos.</p>
+<h1>₹100 - ₹300</h1>
 </div>
 
-<div>
-
-<h3>📱 Video Editing + Reel Uploading</h3>
-
-<p>₹200 - ₹350</p>
-
+<div class="select-card">
+<h3>🔥 Thumbnail Design</h3>
+<p>Gaming, YouTube, Professional Thumbnails.</p>
+<h1>₹99</h1>
 </div>
 
-<div>
-
-<h3>🖼 Photo Editing + Post Uploading</h3>
-
-<p>₹250</p>
+<div class="select-card">
+<h3>⭐ Premium Edit</h3>
+<p>Advanced Editing + Fast Delivery.</p>
+<h1>₹499</h1>
+</div>
 
 </div>
 
 </section>
 
+<section id="order" class="order-section">
+
+    <h2>Start Your Project</h2>
+
+<p style="color:#ccc;margin-bottom:30px;">
+Complete the form below, pay the ₹50 advance, then submit your order.
+Projects begin only after the advance payment is verified.
+</p>
+
+<div class="warning-box">
+
+<h3>⚠️ Important Instructions</h3>
+
+<ul>
+
+<li>✅ You must follow <b>@arya.edit5</b> on Instagram before placing an order.</li>
+
+<li>✅ Send me a DM after submitting your order.</li>
+
+<li>✅ A <b>₹50 advance payment is compulsory.</b></li>
+
+<li>✅ Projects are started only after the advance payment is received.</li>
+
+<li>❌ Orders without advance payment will NOT be accepted.</li>
+
+<li>⚡ After successful payment your project enters the editing queue immediately.</li>
+
+<li>📦 Maximum Upload:
+<ul>
+<li>50 Photos/Videos</li>
+<li>25 Google Drive Links</li>
+</ul>
+</li>
+
+</ul>
+
+</div>
+
+    <form action="https://formsubmit.co/arya.edits178@gmail.com"method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<input type="text" name="instagram" placeholder="Instagram Username">
+
+<select name="service" required>
+<option value="">Select Service</option>
+<option>Thumbnail Design</option>
+<option>Photo Editing</option>
+<option>Video Editing</option>
+</select>
+
+<textarea
+name="driveLinks"
+rows="6"
+placeholder="Paste up to 25 Google Drive links (one per line)">
+</textarea>
+
+<textarea
+name="instructions"
+rows="6"
+placeholder="Explain your editing requirements...">
+</textarea>
+
+<div class="payment-warning">
+
+<h3>🔒 Advance Payment Required</h3>
+
+<p>
+
+To reserve your editing slot, a <b>₹50 advance payment is mandatory.</b>
+
+After your payment is received:
+
+✅ Your project is confirmed.
+
+✅ Editing starts according to the queue.
+
+❌ Orders submitted without payment will be automatically rejected.
+
+</p>
+
+</div>
+<div class="advance-box">
+
+<h3>Advance Payment ₹50</h3>
+
+<img src="images/Screenshot 2026-06-29 220313.png" alt="QR Code">
+
+<br><br>
+
+<a href="upi://pay?pa=9801116031@ybl&pn=Arya%20Edits&am=50&cu=INR"
+class="pay-btn">
+
+💳 Pay ₹50 Advance
+
+</a>
+
+<p>UPI ID: <b>9801116031@ybl</b></p>
+
+<label>
+<input type="checkbox" required>
+I have paid ₹50 advance.
+</label>
+
+</div>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Interested in Photo or Video Editing?</p>
+
+    <p>Follow me on Instagram and send me a DM to place your order.</p>
+
+    <a href="https://instagram.com/arya.edit5" target="_blank" class="insta-btn">
+        📸 Follow & DM on Instagram
+    </a>
+
+    <br><br>
+
+    <a href="https://youtube.com/@arya.edits5" target="_blank" class="yt-btn">
+        🎬 Visit My YouTube Channel
+    </a>
+
+</section>
+
+<section class="support">
+
+<h2>Support Arya Edits ❤️</h2>
+
+<p>If you love my work, you can support me with any amount.</p>
+
+<img src="images/Screenshot 2026-06-29 220313.png">
+
+<br><br>
+
+<a href="upi://pay?pa=9801116031@ybl&pn=Arya%20Edits"
+class="tip-btn">
+
+☕ Buy Me a Coffee / Tip Me
+
+</a>
+
+</section>
 <footer>
 
-<p>Instagram: @arya.edit5</p>
+    <h3>ARYA EDITS</h3>
 
-<p>YouTube: @arya.edits5</p>
+    <p>Professional Photo & Video Editing</p>
+
+    <p>© 2026 Arya Edits. All Rights Reserved.</p>
 
 </footer>
-
-<script src="script.js"></script>
-
 </body>
+
 </html>
